@@ -1,0 +1,15 @@
+{
+  "name": "sqs-zane-jobs",
+  "version": "1.0.0",
+  "description": "This is a simple sqs based service to send and notifications for a job tracker application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaaren Sacharow",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.358.0",
+    "sqs-consumer": "^3.8.0"
+  }
+}
