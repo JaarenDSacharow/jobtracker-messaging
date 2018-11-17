@@ -6,7 +6,7 @@ const sqs = new AWS.SQS({apiVersion: '2012-11-05'});
 
 
 var params = {
-    DelaySeconds: 1,
+    DelaySeconds: 2,
     MessageAttributes: {
      "Title": {
        DataType: "String",
